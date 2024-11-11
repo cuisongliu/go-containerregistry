@@ -1,10 +1,10 @@
 module github.com/google/go-containerregistry
 
-go 1.18
+go 1.23.0
 
 require (
 	github.com/containerd/stargz-snapshotter/estargz v0.14.3
-	github.com/docker/cli v24.0.0+incompatible
+	github.com/docker/cli v27.1.1+incompatible
 	github.com/docker/distribution v2.8.2+incompatible
 	github.com/docker/docker v24.0.0+incompatible
 	github.com/google/go-cmp v0.5.9
@@ -37,8 +37,8 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/vbatts/tar-split v0.11.3 // indirect
 	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/net v0.10.0 // indirect
-	golang.org/x/sys v0.8.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
